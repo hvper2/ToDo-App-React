@@ -27,8 +27,8 @@ export function TasksList(){
                         }}>
                         {task.title}
                     </li>
-                    <button onClick={() => handleCompleteTask(index)}>Y</button>
-                    <button onClick={() => handleDeleteTask(index)}>X</button>
+                    <button onClick={() => handleCompleteTask(index)}>Complete</button>
+                    <button onClick={() => handleDeleteTask(index)}>Delete</button>
                     </>
                 )
             }
