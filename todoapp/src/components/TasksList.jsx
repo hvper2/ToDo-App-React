@@ -48,7 +48,7 @@ export function TasksList() {
                 <button onClick={() => handleToggleTaskState(index)}>
                   {completed ? "Undo" : "Complete"}
                 </button>
-                <button onClick={() => handleDeleteTask(index)}>Delete</button>
+                <button onClick={() => handleDeleteTask(index)}>Delete.</button>
               </>
             );
           })}
